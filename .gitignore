@@ -1,0 +1,19 @@
+# Rendered videos and exports
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.gif
+
+# HyperFrames generated artifacts (snapshots, renders, caches).
+# The rest of .hyperframes/ holds project history and stays tracked.
+.hyperframes/artifacts/
+
+# Dependencies and local files
+node_modules/
+.env
+.env.*
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
